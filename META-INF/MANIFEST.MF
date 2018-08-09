@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: jCodBuilder
+Implementation-Version: version1
+Implementation-Vendor: Seetharaman Radhakrishnan

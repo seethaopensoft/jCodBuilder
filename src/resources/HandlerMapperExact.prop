@@ -1,0 +1,9 @@
+java.lang.Character=jcodbuilder.handler.CharacterWrapperHandler
+
+java.lang.Boolean=jcodbuilder.handler.BooleanWrapperHandler
+java.util.concurrent.atomic.AtomicBoolean=jcodbuilder.handler.BooleanWrapperHandler
+
+java.lang.String=jcodbuilder.handler.Type1StringWrapperHandler
+java.lang.StringBuilder=jcodbuilder.handler.Type2StringWrapperHandler
+java.lang.StringBuffer=jcodbuilder.handler.Type2StringWrapperHandler
+

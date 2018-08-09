@@ -1,0 +1,4 @@
+java.lang.Number=jcodbuilder.handler.NumberWrapperHandler
+java.util.Collection=jcodbuilder.handler.Type1CollectionHandler
+java.util.Map=jcodbuilder.handler.Type2CollectionHandler
+
