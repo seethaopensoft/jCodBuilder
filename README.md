@@ -1,9 +1,4 @@
-This library does the job of taking the runtime object as an input and generating the java source code in order to 
-reconstruct them. This is more of like marshalling the Java object in a source code form. The generated class file 
-will act like object builder for the given runtime object.
-
-This may be useful in saving time when we need to deal with unmarshalling the mock response from XML or other file 
-during Unit Test run. 
+If you are looking a library to help you build the mock object (say, service response) without unmarshalling it from XML/JSON/etc during test run in order to save time, then this can help you out. This takes the runtime object (basically after unmarshalling from XML/etc) as an input and generates the source code to rebuild the same object that can be used during test run for faster execution. The generated code will act as a builder class to build this specific object.
 
 If any specific type should be handled differently, then the handler class of type CustomObjectTypeHandler should be 
 created and information about this should be detailed in one of the below file, as applicable.
